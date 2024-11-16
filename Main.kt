@@ -68,7 +68,7 @@ fun main() {
         val passengers = Random.nextInt(5, 202)
         println("Количество пассажиров, купивших билеты: $passengers")
 
-        val train = Train(route)
+        val train = Train(route) //создание поезда
         var totalPassengers = passengers
 
         while (totalPassengers > 0) {
